@@ -83,11 +83,12 @@ main{
     font-weight: 700;
     font-size: 35px;
 }
-.section-descriptions{
+.section-description{
     color: #757575;
     font-size: 18px;
     margin: auto;
     text-align: center;
+    /* padding: 30px 0px; */
     width: 909px;
     height: 90px;
 }
@@ -109,9 +110,6 @@ main{
 }
 
 /* What i do styles */
-
-
-
 .section-title{
     text-align: center;
     font-weight: 700;
@@ -176,4 +174,28 @@ main{
     margin-top: 50px;
     margin-bottom: 100px;
     text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 200px 230px;
+}
+.contact .section-title{
+    text-align: left;
+
+}
+.contact .section-description2{
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
 }
