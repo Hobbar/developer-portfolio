@@ -5,6 +5,9 @@
 .text-primary{
     color: #fd6e0a;
 }
+.section{
+    margin-top: 130px;
+}
 .btn-primary{
     color: #ffffff;
     font-weight: 700;
@@ -15,7 +18,7 @@
     border-radius: 4px;
     background: #fd6e0a;
 }
-
+/* Navbar styles */
 .header{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -62,12 +65,12 @@ nav li{
     margin-bottom: 30px;
 }
 
-/* About section styles */
+/* Main section styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
-
 }
+/* About section styles */
 .about{
     margin-top: 130px;
     background-color: #fff9f3;
@@ -80,10 +83,13 @@ main{
     font-weight: 700;
     font-size: 35px;
 }
-.section-description{
+.section-descriptions{
     color: #757575;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin: auto;
+    text-align: center;
+    width: 909px;
+    height: 90px;
 }
 .about-info-container{
     display: flex;
@@ -100,4 +106,74 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* What i do styles */
+
+
+
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.skills-container{
+    display: flex;
+    
+}
+.skill{
+    background: #ffffff;
+    margin: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px ;
+    
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* resume styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.resume-item{
+    margin: 30px 0;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
 }
